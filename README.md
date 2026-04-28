@@ -3,6 +3,20 @@
 Sistema web full-stack para controle de estoque de cafe/restaurante, com autenticacao de usuarios, gestao de produtos, movimentacoes e relatorios.
 
 O Sistema de estoque Juba foi criado inicialmente para o Projeto de Extensão do semestre anterior, em que o sistema foi idealizado e uma versão com funcionalidades básicas foi desenvolvida. Neste semestre, mais uma vez em conjunto com a dona do café, foram analisadas novas necessidades e melhorias que agregariam ainda mais valor ao projeto. 
+---
+## Screenshots 
+
+Tela Inicial 
+
+Tela de Login 
+
+Tela de Registro 
+
+Dashboard 
+
+Lista de Produtos 
+
+---
 
 ## Objetivo do Projeto
 
@@ -113,3 +127,7 @@ Relatorios:
 - `FEATURES.md`
 - `PROTOTIPO_ALTA_FIDELIDADE.md`
 - `QUICKSTART.md`
+
+---
+
+Desenvolvido com carinho para uma empreendedora independente ❤️
