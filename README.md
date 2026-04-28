@@ -1,0 +1,117 @@
+﻿# Juba Estoque
+
+Sistema web full-stack para controle de estoque de cafe/restaurante, com autenticacao de usuarios, gestao de produtos, movimentacoes e relatorios.
+
+## Objetivo do Projeto
+
+Centralizar o controle de estoque em uma aplicacao unica, reduzindo falhas operacionais e melhorando a tomada de decisao.
+
+## Tecnologias
+
+- Frontend: React 19, React Router, Axios
+- Backend: Node.js, Express
+- Banco: SQLite
+- Seguranca: JWT + bcrypt
+
+## Rotas da Aplicacao
+
+- `/` Home publica
+- `/login` Login
+- `/register` Registro
+- `/inventory` Dashboard
+- `/produtos` Gestao de produtos
+- `/fornecedores` Fornecedores
+- `/movimentacoes` Historico de movimentacoes
+- `/relatorios` Relatorios
+
+## Instalacao
+
+```bash
+npm install
+cd server && npm install && cd ..
+```
+
+## Execucao
+
+### Desenvolvimento
+
+```bash
+npm run dev
+```
+
+Acessos locais:
+
+- Frontend: http://localhost:3000
+- API: http://localhost:5000
+
+### Build
+
+```bash
+npm run build
+```
+
+## Principais Funcionalidades
+
+- autenticacao de usuario
+- CRUD de produtos
+- filtro de estoque baixo
+- registro de movimentacoes por item
+- dashboard com indicadores
+- relatorios por categoria, estoque baixo e valor de inventario
+- cadastro de fornecedores
+
+## Banco de Dados
+
+Arquivo local:
+
+- `server/db/juba.db`
+
+Tabelas principais:
+
+- `users`
+- `items`
+- `item_movements`
+- `suppliers`
+
+## Endpoints (resumo)
+
+Autenticacao:
+
+- `POST /api/auth/register`
+- `POST /api/auth/login`
+
+Itens:
+
+- `GET /api/items`
+- `POST /api/items`
+- `PUT /api/items/:id`
+- `DELETE /api/items/:id`
+
+Movimentacoes:
+
+- `GET /api/items/:id/movements`
+- `POST /api/items/:id/movements`
+- `GET /api/items/history/all`
+
+Relatorios:
+
+- `GET /api/items/reports/summary`
+- `GET /api/items/reports/by-category`
+- `GET /api/items/reports/low-stock`
+- `GET /api/items/reports/inventory-value`
+
+## Documentos Academicos
+
+- `SUMARIO_EXECUTIVO.md`
+- `DOCUMENTO_VISAO.md`
+- `METODOLOGIA.md`
+- `CASOS_DE_USO_UML.md`
+- `DATABASE_FLOWCHART.md`
+- `CONSULTA_BANCO_DADOS.md`
+- `FEATURES.md`
+- `PROTOTIPO_ALTA_FIDELIDADE.md`
+- `QUICKSTART.md`
+
+## Status de Entrega
+
+Projeto funcional e documentacao revisada para entrega academica.
