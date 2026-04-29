@@ -1,4 +1,4 @@
-<img width="1907" height="865" alt="Captura de tela 2026-04-28 212602" src="https://github.com/user-attachments/assets/70f85106-58e3-4688-9ee4-49cbc69968c4" /><img width="1821" height="842" alt="Captura de tela 2026-04-27 231802" src="https://github.com/user-attachments/assets/081aecc4-fcd1-495c-b4cb-6d9d6dab74e7" />
+
 ﻿# ☕ Juba Estoque - Versão Atualizada 
 
 Sistema web full-stack para controle de estoque de cafe/restaurante, com autenticação de usuários, gestão de produtos, movimentações e relatórios.
