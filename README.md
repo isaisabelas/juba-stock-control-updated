@@ -1,5 +1,5 @@
 
-﻿# ☕ Juba Estoque - Versão Atualizada 
+﻿## ☕ Juba Estoque - Versão Atualizada 
 
 Sistema web full-stack para controle de estoque de cafe/restaurante, com autenticação de usuários, gestão de produtos, movimentações e relatórios.
 
