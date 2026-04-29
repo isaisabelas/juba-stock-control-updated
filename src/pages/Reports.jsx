@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { api } from '../services/api';
 import '../styles/Reports.css';
 import { formatCurrency } from '../utils/formatters';
@@ -13,11 +13,7 @@ const Reports = () => {
   const [startDate, setStartDate] = useState('');
   const [endDate, setEndDate] = useState('');
 
-  useEffect(() => {
-    loadAllReports();
-  }, []);
-
-  const loadAllReports = async () => {
+  const loadAllReports = useCallback(async () => {
     setLoading(true);
     try {
       // Construir query params se datas forem fornecidas
@@ -42,7 +38,11 @@ const Reports = () => {
     } finally {
       setLoading(false);
     }
-  };
+  }, [startDate, endDate]);
+
+  useEffect(() => {
+    loadAllReports();
+  }, [loadAllReports]);
 
   return (
     <div className="reports-container">

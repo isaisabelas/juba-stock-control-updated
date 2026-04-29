@@ -40,7 +40,7 @@ export default function Login() {
 
   return (
     <div className="auth-container">
-      <div className="auth-card">
+      <div className="auth-form-panel">
         <div className="auth-header">
           <h1>🔐 Login</h1>
           <p>Bem-vindo ao Juba</p>
@@ -87,3 +87,4 @@ export default function Login() {
     </div>
   );
 }
+
