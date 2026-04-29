@@ -1,9 +1,21 @@
-﻿# Juba Estoque - Versão Atualizada 
+﻿# ☕ Juba Estoque - Versão Atualizada 
 
-Sistema web full-stack para controle de estoque de cafe/restaurante, com autenticacao de usuarios, gestao de produtos, movimentacoes e relatorios.
+Sistema web full-stack para controle de estoque de cafe/restaurante, com autenticação de usuários, gestão de produtos, movimentações e relatórios.
 
-O Sistema de estoque Juba foi criado inicialmente para o Projeto de Extensão do semestre anterior, em que o sistema foi idealizado e uma versão com funcionalidades básicas foi desenvolvida. Neste semestre, mais uma vez em conjunto com a dona do café, foram analisadas novas necessidades e melhorias que agregariam ainda mais valor ao projeto. 
+O Sistema de estoque Juba foi criado inicialmente para o Projeto de Extensão IV do curso de Análise e Desenvolvimento de Sistemas da faculdade Descomplica, em que o sistema foi idealizado e uma versão com funcionalidades básicas foi desenvolvida. Neste semestre, mais uma vez em conjunto com a dona do café, foram analisadas novas necessidades e melhorias que agregariam ainda mais valor ao projeto e contemplariam os requisitos do Proveto V. 
+
+**Principais Entregas e Melhorias:**
+
+*   **📄 Documentação de Engenharia:** Criação de Documento de Visão, Diagrama de Casos de Uso e protótipos de alta fidelidade para validar os requisitos com a usuária (Juba Café).
+*   **📊 Relatórios e Análises:** Nova página de relatórios com visão de gastos por categoria e itens críticos, auxiliando na tomada de decisão.
+*   **📜 Histórico de Movimentações:** Implementação de um log completo que rastreia todas as entradas, saídas e edições de produtos, garantindo rastreabilidade e transparência.
+*   **🤝 Gestão de Fornecedores:** Nova funcionalidade para cadastro e vinculação de fornecedores aos produtos, melhorando a organização do negócio.
+*   **✅ Plano de Testes e Piloto:** Elaboração e execução de um plano de testes com a usuária real. O relatório do piloto documenta os bugs encontrados, os feedbacks coletados e as melhorias implementadas a partir dessa validação prática.
+*   **📈 Gestão do Projeto:** Utilização de metodologias ágeis com backlog no Trello e cronograma detalhado, demonstrando o planejamento e acompanhamento do projeto.
+*   **🔒 Análise de Segurança:** Revisão e documentação das práticas de segurança adotadas (hash de senhas, isolamento de dados por usuário via JWT, validação de entradas).
+
 ---
+
 ## Screenshots 
 
 Tela Inicial 
