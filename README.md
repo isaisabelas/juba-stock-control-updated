@@ -1,3 +1,4 @@
+<img width="1907" height="865" alt="Captura de tela 2026-04-28 212602" src="https://github.com/user-attachments/assets/70f85106-58e3-4688-9ee4-49cbc69968c4" /><img width="1821" height="842" alt="Captura de tela 2026-04-27 231802" src="https://github.com/user-attachments/assets/081aecc4-fcd1-495c-b4cb-6d9d6dab74e7" />
 ﻿# ☕ Juba Estoque - Versão Atualizada 
 
 Sistema web full-stack para controle de estoque de cafe/restaurante, com autenticação de usuários, gestão de produtos, movimentações e relatórios.
@@ -19,14 +20,26 @@ O Sistema de estoque Juba foi criado inicialmente para o Projeto de Extensão IV
 ## Screenshots 
 
 Tela Inicial 
+<img width="1821" height="842" alt="Captura de tela 2026-04-27 231802" src="https://github.com/user-attachments/assets/99e957ea-0acd-4701-b16a-9b664f1c4b3b" />
 
 Tela de Login 
-
-Tela de Registro 
+<img width="1272" height="650" alt="Captura de tela 2026-04-28 212411" src="https://github.com/user-attachments/assets/0cf334fa-fea2-48c3-8cf4-44ec4e80f2eb" />
 
 Dashboard 
+<img width="1913" height="741" alt="Captura de tela 2026-04-28 212448" src="https://github.com/user-attachments/assets/3eec7cd4-371f-45f0-980b-4fc8faba979d" />
 
-Lista de Produtos 
+Página de Produtos 
+<img width="1907" height="865" alt="Captura de tela 2026-04-28 212602" src="https://github.com/user-attachments/assets/b896a84a-94e4-429b-bd52-c853c7c2e83d" />
+
+Página de Fornecedores 
+<img width="1901" height="869" alt="Captura de tela 2026-04-28 212616" src="https://github.com/user-attachments/assets/32624d72-afdb-42b5-b736-0383730812c2" />
+
+Página de Movimentações 
+<img width="1909" height="866" alt="Captura de tela 2026-04-28 212626" src="https://github.com/user-attachments/assets/fb27192c-ceb8-4409-b03b-d5fcb3dc345d" />
+
+Página de Relatórios 
+<img width="1912" height="848" alt="Captura de tela 2026-04-28 212633" src="https://github.com/user-attachments/assets/7f590962-ce54-473d-a209-ac8c0e3021d7" />
+
 
 ---
 
